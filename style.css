@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+:root{
+--main-color:#1159B9;
+}
+
+body{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--main-color);
+}
+
+header{
+width: 1300px;
+margin: auto;
+height: 100vh;
+}
+
+
+.logo img{
+width: 45px;
+}
+
+
+.nav{
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin: auto;
+padding-top: 16px;
+
+}
+
+
+.nav ul{
+display: flex;
+list-style-type: none;
+}
+.nav ul a{
+text-decoration: none;
+padding-right: 80px;
+font-weight: 400;
+color: white;
+}
+
+.title{
+
+}
+
+.hero{
+display: flex;
+justify-content: space-between;
+align-items: center;
+height: 70vh;
+}
+
+ img{
+width: 200px;
+transition-duration: 1.2s;
+}
+
+ .title h1{
+font-size: 30px;
+padding-bottom: 20px;
+font-weight: 700;
+color: #fff;
+}
+
+
+.title h3{
+font-weight: bold;
+text-transform: uppercase;
+color: #fff;
+
+}
+
+.title p{
+max-width: 70%;
+color: #fff;
+margin-bottom: 60px;
+}
+
+.title h1 span{
+font-size: 50px;
+font-weight: bold;
+color: rgba(255, 0, 0, 0.641);
+}
+
+
+.icons i{
+font-size: 25px;
+margin: 48px;
+display: flex;
+flex-direction: column;
+margin-top: 10px;
+margin-bottom: 22px;
+color: white;
+}
+
+
+.title a{
+background-color: #fff;
+padding: 16px 35px;
+border-radius: 20px;
+text-decoration: none;
+color: black;
+font-weight: 400;
+text-transform: uppercase;
+}
+.title a:hover{
+background-color: transparent;
+border: solid 2px;
+color: #fff;
+}
+
+img:hover{
+scale:1.2 ;
+}
+
+
+
+.can{
+display: block;
+width: 100px;
+margin: auto;
+}
